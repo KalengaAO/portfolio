@@ -1,8 +1,3 @@
-```css
-/* ==============================
-   Reset
-   ============================== */
-
 * {
     margin: 0;
     padding: 0;
@@ -252,4 +247,43 @@ a {
     }
 
 }
-```
+
+.project-card {
+    padding: 35px;
+    border: 1px solid #c8c8c8;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
+}
+
+.project-number {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.project-description {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.project-tech {
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.project-link {
+    margin-top: auto;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
