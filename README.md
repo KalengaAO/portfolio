@@ -1,2 +1,2 @@
 # portfolio
-List of my project
+My software engineering portfolio
