@@ -116,7 +116,7 @@ img {
 
 .hero-image img {
     width: 100%;
-    aspect-ratio: .5;
+    aspect-ratio: .9;
     object-fit: cover;
     filter: grayscale(100%);
 }
@@ -288,6 +288,7 @@ img {
 
     .hero-image {
         max-width: 300px;
+        max-height: 300px;
     }
 
     .skills-grid,
